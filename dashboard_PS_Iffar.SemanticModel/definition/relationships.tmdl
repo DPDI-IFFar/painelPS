@@ -1,0 +1,12 @@
+relationship 04560cab-e32d-ff81-1aac-e636f03afb0b
+	fromColumn: DadosPS.Campus
+	toColumn: Unidades.UNIDADE_SIS
+
+relationship bfd808dd-97d7-8985-66a5-72b3fe791678
+	fromColumn: 'PS REGULAR'.Campus
+	toColumn: Unidades.UNIDADE_SIS
+
+relationship ba28a967-9bb8-8a48-b1e1-d608ca2e3ce3
+	fromColumn: 'PS SIMPLIFICADO'.Campus
+	toColumn: Unidades.UNIDADE_SIS
+

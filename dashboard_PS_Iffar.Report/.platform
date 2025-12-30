@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "dashboard_PS_Iffar"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "56133dbe-ceb8-4e79-a9b2-d4b6c653d17e"
+  }
+}

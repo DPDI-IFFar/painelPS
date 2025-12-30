@@ -1,0 +1,742 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.4.0/schema.json",
+  "displayName": "Geral",
+  "name": "fd7fb7b8d8cafe3631a2",
+  "options": {
+    "targetVisualNames": []
+  },
+  "explorationState": {
+    "version": "1.11",
+    "activeSection": "6635d0d09bf7f3a44d79",
+    "sections": {
+      "6635d0d09bf7f3a44d79": {
+        "visualContainers": {
+          "04403ebf334deeb1413c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "befdb8963d948081b28b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "PS REGULAR"
+                            }
+                          },
+                          "Property": "Vagas Confirmadas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e97d284eafd00980e255",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "PS REGULAR"
+                            }
+                          },
+                          "Property": "Vagas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "gauge",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "PS REGULAR"
+                            }
+                          },
+                          "Property": "Vagas Confirmadas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "350ddb800ac64dbe9f86": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "560c26917df2117164ad": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4fe965d94decfcf2a845",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "TipoVisualizacao"
+                        }
+                      },
+                      "Property": "Parâmetro"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "advancedSlicerVisual",
+              "objects": {}
+            }
+          },
+          "91af9265d652f0a02e40": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "405a34a749b9ecc579be": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4f5fff8d5de54686ab05",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "PS SIMPLIFICADO"
+                            }
+                          },
+                          "Property": "Vagas Confirmadas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "b7955e52844785e3eae6",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "PS SIMPLIFICADO"
+                            }
+                          },
+                          "Property": "Vagas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "gauge",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "PS SIMPLIFICADO"
+                            }
+                          },
+                          "Property": "Vagas Confirmadas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "3aed847c579480c2ef74": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "7d105bc537b39855bc03",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DadosPS"
+                            }
+                          },
+                          "Property": "Vagas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "3ed1e9927f74a4d64d95",
+                  "type": "Advanced",
+                  "expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DadosPS"
+                            }
+                          },
+                          "Property": "Vagas Confirmadas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "gauge",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Aggregation": {
+                      "Expression": {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DadosPS"
+                            }
+                          },
+                          "Property": "Vagas Confirmadas"
+                        }
+                      },
+                      "Function": 0
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "c5c855832d13ec73c9bd": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9c77be3464936a6bae49",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Total de Inscritos"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "7f2bb793ae2220dc81a4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Total de vagas"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "01dc6f372e8236f54f52",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Total de vagas confirmadas"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "0b05219f6a61fbce4e39",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Relação inscrito/vaga"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "3964d26921ea5e62fb0b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "% Vagas preenchidas"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "b10ca4eea114f2551c47",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Unidades"
+                        }
+                      },
+                      "Property": "CIDADE"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "09ee333a2549c3bbf02d",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Modalidade"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "6c672526635761d485b8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Tipo de Curso"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e2ce8fdc893d7c5bd570",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Tipo de Oferta"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "b35984b4715c20d93957",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Nome do Curso"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "pivotTable",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Total de vagas"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Rows": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Unidades"
+                        }
+                      },
+                      "Property": "CIDADE"
+                    }
+                  }
+                ]
+              },
+              "projections": {
+                "Rows": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Unidades"
+                        }
+                      },
+                      "Property": "CIDADE"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Modalidade"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Tipo de Curso"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Tipo de Oferta"
+                    }
+                  },
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Nome do Curso"
+                    }
+                  }
+                ],
+                "Values": [
+                  {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  },
+                  {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  },
+                  {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  },
+                  {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  },
+                  {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  }
+                ]
+              },
+              "parameters": {
+                "Rows": [
+                  {
+                    "expr": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "TipoVisualizacao"
+                          }
+                        },
+                        "Property": "Parâmetro"
+                      }
+                    },
+                    "index": 0,
+                    "length": 5
+                  }
+                ]
+              },
+              "expansionStates": [
+                {
+                  "roles": [
+                    "Rows"
+                  ],
+                  "levels": [
+                    {
+                      "queryRefs": [
+                        "Unidades.CIDADE"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    },
+                    {
+                      "queryRefs": [
+                        "DadosPS.Modalidade"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    },
+                    {
+                      "queryRefs": [
+                        "DadosPS.Tipo de Curso"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    },
+                    {
+                      "queryRefs": [
+                        "DadosPS.Tipo de Oferta"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    },
+                    {
+                      "queryRefs": [
+                        "DadosPS.Nome do Curso"
+                      ],
+                      "isCollapsed": true,
+                      "isPinned": true
+                    }
+                  ],
+                  "root": {
+                    "identityValues": null
+                  }
+                }
+              ]
+            }
+          },
+          "06f6f892754e1a2315ca": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "8a2ba2cbec1ed24532cb": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "789f4dd5ecebdb3bb714",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data atualização"
+                        }
+                      },
+                      "Property": "Data"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "TextEnhancerByMAQ46ASG0293G65JY43S89DKJ9",
+              "objects": {}
+            }
+          },
+          "9751e148023d43ab803e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "fc3063e4bb97e22d72f8",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Turno"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Turno"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "34e9f20347ef01054d40": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4f9005921ee99dbba254",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Tipo de Seleção"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DadosPS"
+                        }
+                      },
+                      "Property": "Tipo de Seleção"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "objects": {}
+  }
+}

@@ -1,0 +1,4319 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dadosps.tipo_de_oferta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Tipo de Oferta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de oferta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Oferta": {
+			            "State": "Generated",
+			            "Weight": 0.675
+			          }
+			        },
+			        {
+			          "Oferta (Técnico)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dadosps.modalidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Modalidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modalidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dadosps.tipo_de_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Tipo de Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dadosps.nome_do_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Nome do Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "unidades.cidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades",
+			          "ConceptualProperty": "CIDADE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Campus": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ps regular": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regular": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "even": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "steady": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "routine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.polo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Polo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "polo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.tipo_de_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Tipo de Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.tipo_de_oferta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Tipo de Oferta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de oferta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.nome_do_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Nome do Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.modalidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Modalidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modalidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.tipo_de_seleção": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Tipo de Seleção"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de seleção": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Vagas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vaga": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.inscrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Inscritos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inscrito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_regular.vagas_confirmada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS REGULAR",
+			          "ConceptualProperty": "Vagas Confirmadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas confirmada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vaga confirmada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ps simplificado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.polo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Polo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "polo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.tipo_de_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Tipo de Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.tipo_de_oferta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Tipo de Oferta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de oferta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.nome_do_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Nome do Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.modalidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Modalidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modalidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.tipo_de_seleção": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Tipo de Seleção"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de seleção": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Vagas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vaga": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.inscrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Inscritos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inscrito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_simplificado.vagas_confirmada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS SIMPLIFICADO",
+			          "ConceptualProperty": "Vagas Confirmadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas confirmada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vaga confirmada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dados PS": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dado PS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "DadosPS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "PS": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.polo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Polo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "polo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.tipo_de_seleção": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Tipo de Seleção"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de seleção": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Vagas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vaga": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.inscrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Inscritos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inscrito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.vagas_confirmada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Vagas Confirmadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas confirmada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vaga confirmada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.processo_seletivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Processo Seletivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "processo seletivo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.total_de_inscritos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Total de Inscritos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de inscritos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de inscrito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de inscrito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.total_de_vagas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Total de vagas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de vagas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de vaga": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de vaga": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.total_de_vagas_confirmadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Total de vagas confirmadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de vagas confirmadas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de vaga confirmada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall de vaga confirmada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.relação_inscrito_vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Relação inscrito/vaga"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "relação inscrito/vaga": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "relação inscrito": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "relação inscrito vaga": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.vagas_preenchidas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "% Vagas preenchidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% vagas preenchidas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage vaga preenchida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct vaga preenchida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.confirmados_PS_regular": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Confirmados_PSRegular"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "confirmados PS regular": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Confirmados_PSRegular": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.confirmados_PS_simp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Confirmados_PSSimp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "confirmados PS simp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Confirmados_PSSimp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.vagas_PS_regular": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Vagas_PSRegular"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas PS regular": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Vagas_PSRegular": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Total de vagas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.vagas_PS_simp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Vagas_PSSimp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas PS simp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Vagas_PSSimp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.título_PS": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Título PS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "título PS": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.confirmados_PS_comp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Confirmados_PSComp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "confirmados PS comp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Confirmados_PSComp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dados_PS.vagas_PS_comp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DadosPS",
+			          "ConceptualProperty": "Vagas_PSComp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas PS comp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Vagas_PSComp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "unidade.co_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades",
+			          "ConceptualProperty": "CO_UNIDADE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CO_UNIDADE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "unidade.no_unidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades",
+			          "ConceptualProperty": "NO_UNIDADE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no unidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NO_UNIDADE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "number unidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "unidade.país": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades",
+			          "ConceptualProperty": "PAÍS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "país": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "unidade.estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades",
+			          "ConceptualProperty": "ESTADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "unidade.unidade_sis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Unidades",
+			          "ConceptualProperty": "UNIDADE_SIS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unidade sis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "UNIDADE_SIS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tipo_visualizacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TipoVisualizacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo visualizacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TipoVisualizacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tipo_visualizacao.parâmetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TipoVisualizacao",
+			          "ConceptualProperty": "Parâmetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tipo_visualizacao.parâmetro_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TipoVisualizacao",
+			          "ConceptualProperty": "Parâmetro Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tipo_visualizacao.parâmetro_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TipoVisualizacao",
+			          "ConceptualProperty": "Parâmetro Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_atualização": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data atualização"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data atualização": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record atualização": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "data_atualização.texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data atualização",
+			          "ConceptualProperty": "Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "texto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_atualização.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data atualização",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ps complementar": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.polo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Polo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "polo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.tipo_de_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Tipo de Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.tipo_de_oferta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Tipo de Oferta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de oferta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.nome_do_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Nome do Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome do curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.modalidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Modalidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modalidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.tipo_de_seleção": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Tipo de Seleção"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de seleção": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Vagas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vaga": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.inscrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Inscritos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "inscrito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.vagas_confirmada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Vagas Confirmadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas confirmada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vaga confirmada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "ps_complementar.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PS COMPLEMENTAR",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dados_PS_has_dadosps_tipo_de_oferta": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dadosps.tipo_de_oferta": {
+			          "Target": {
+			            "Entity": "dadosps.tipo_de_oferta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dadosps.tipo_de_oferta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_tipo_de_ofertas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_dadosps_modalidade": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dadosps.modalidade": {
+			          "Target": {
+			            "Entity": "dadosps.modalidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dadosps.modalidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_modalidades"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_dadosps_tipo_de_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dadosps.tipo_de_curso": {
+			          "Target": {
+			            "Entity": "dadosps.tipo_de_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dadosps.tipo_de_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_tipo_de_cursos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_dadosps_nome_do_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dadosps.nome_do_curso": {
+			          "Target": {
+			            "Entity": "dadosps.nome_do_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dadosps.nome_do_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_nome_do_cursos"
+			        }
+			      ]
+			    },
+			    "unidade_has_unidades_cidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Unidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        },
+			        "unidades.cidade": {
+			          "Target": {
+			            "Entity": "unidades.cidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "unidades.cidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_cidades"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_polo": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.polo": {
+			          "Target": {
+			            "Entity": "ps_regular.polo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.polo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_polo"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_tipo_de_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.tipo_de_curso": {
+			          "Target": {
+			            "Entity": "ps_regular.tipo_de_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.tipo_de_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_tipo_de_cursos"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_tipo_de_oferta": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.tipo_de_oferta": {
+			          "Target": {
+			            "Entity": "ps_regular.tipo_de_oferta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.tipo_de_oferta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_tipo_de_ofertas"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_nome_do_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.nome_do_curso": {
+			          "Target": {
+			            "Entity": "ps_regular.nome_do_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.nome_do_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_nome_do_cursos"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.turno": {
+			          "Target": {
+			            "Entity": "ps_regular.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_turnos"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_modalidade": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.modalidade": {
+			          "Target": {
+			            "Entity": "ps_regular.modalidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.modalidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_modalidades"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.ano": {
+			          "Target": {
+			            "Entity": "ps_regular.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_anos"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_tipo_de_seleção": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.tipo_de_seleção": {
+			          "Target": {
+			            "Entity": "ps_regular.tipo_de_seleção"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.tipo_de_seleção"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_tipo_de_seleçãos"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.vaga": {
+			          "Target": {
+			            "Entity": "ps_regular.vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_vagas"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_inscrito": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.inscrito": {
+			          "Target": {
+			            "Entity": "ps_regular.inscrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.inscrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_inscritos"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_vagas_confirmada": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "ps_regular.vagas_confirmada": {
+			          "Target": {
+			            "Entity": "ps_regular.vagas_confirmada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "ps_regular.vagas_confirmada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_vagas_confirmadas"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_polo": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.polo": {
+			          "Target": {
+			            "Entity": "ps_simplificado.polo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.polo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_polo"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_tipo_de_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.tipo_de_curso": {
+			          "Target": {
+			            "Entity": "ps_simplificado.tipo_de_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.tipo_de_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_tipo_de_cursos"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_tipo_de_oferta": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.tipo_de_oferta": {
+			          "Target": {
+			            "Entity": "ps_simplificado.tipo_de_oferta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.tipo_de_oferta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_tipo_de_ofertas"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_nome_do_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.nome_do_curso": {
+			          "Target": {
+			            "Entity": "ps_simplificado.nome_do_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.nome_do_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_nome_do_cursos"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.turno": {
+			          "Target": {
+			            "Entity": "ps_simplificado.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_turnos"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_modalidade": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.modalidade": {
+			          "Target": {
+			            "Entity": "ps_simplificado.modalidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.modalidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_modalidades"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.ano": {
+			          "Target": {
+			            "Entity": "ps_simplificado.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_anos"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_tipo_de_seleção": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.tipo_de_seleção": {
+			          "Target": {
+			            "Entity": "ps_simplificado.tipo_de_seleção"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.tipo_de_seleção"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_tipo_de_seleçãos"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.vaga": {
+			          "Target": {
+			            "Entity": "ps_simplificado.vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_vagas"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_inscrito": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.inscrito": {
+			          "Target": {
+			            "Entity": "ps_simplificado.inscrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.inscrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_inscritos"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_vagas_confirmada": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "ps_simplificado.vagas_confirmada": {
+			          "Target": {
+			            "Entity": "ps_simplificado.vagas_confirmada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado.vagas_confirmada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_vagas_confirmadas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_polo": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.polo": {
+			          "Target": {
+			            "Entity": "dados_PS.polo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.polo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_polo"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.turno": {
+			          "Target": {
+			            "Entity": "dados_PS.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_turnos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.ano": {
+			          "Target": {
+			            "Entity": "dados_PS.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_anos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_tipo_de_seleção": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.tipo_de_seleção": {
+			          "Target": {
+			            "Entity": "dados_PS.tipo_de_seleção"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.tipo_de_seleção"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_tipo_de_seleçãos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.vaga": {
+			          "Target": {
+			            "Entity": "dados_PS.vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_vagas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_inscrito": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.inscrito": {
+			          "Target": {
+			            "Entity": "dados_PS.inscrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.inscrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_inscritos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_vagas_confirmada": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.vagas_confirmada": {
+			          "Target": {
+			            "Entity": "dados_PS.vagas_confirmada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.vagas_confirmada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_vagas_confirmadas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_processo_seletivo": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.processo_seletivo": {
+			          "Target": {
+			            "Entity": "dados_PS.processo_seletivo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.processo_seletivo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_processo_seletivos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.column_1": {
+			          "Target": {
+			            "Entity": "dados_PS.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_column_1"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_total_de_inscritos": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.total_de_inscritos": {
+			          "Target": {
+			            "Entity": "dados_PS.total_de_inscritos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.total_de_inscritos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_total_de_inscritos"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_total_de_vagas": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.total_de_vagas": {
+			          "Target": {
+			            "Entity": "dados_PS.total_de_vagas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.total_de_vagas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_total_de_vagas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_total_de_vagas_confirmadas": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.total_de_vagas_confirmadas": {
+			          "Target": {
+			            "Entity": "dados_PS.total_de_vagas_confirmadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.total_de_vagas_confirmadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_total_de_vagas_confirmadas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_relação_inscrito_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.relação_inscrito_vaga": {
+			          "Target": {
+			            "Entity": "dados_PS.relação_inscrito_vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.relação_inscrito_vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_relação_inscrito_vaga"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_vagas_preenchidas": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.vagas_preenchidas": {
+			          "Target": {
+			            "Entity": "dados_PS.vagas_preenchidas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.vagas_preenchidas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have__vagas_preenchidas"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_confirmados_PS_regular": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.confirmados_PS_regular": {
+			          "Target": {
+			            "Entity": "dados_PS.confirmados_PS_regular"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.confirmados_PS_regular"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_confirmados_PS_regular"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_confirmados_PS_simp": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.confirmados_PS_simp": {
+			          "Target": {
+			            "Entity": "dados_PS.confirmados_PS_simp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.confirmados_PS_simp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_confirmados_PS_simp"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_vagas_PS_regular": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.vagas_PS_regular": {
+			          "Target": {
+			            "Entity": "dados_PS.vagas_PS_regular"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.vagas_PS_regular"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_vagas_PS_regular"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_vagas_PS_simp": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.vagas_PS_simp": {
+			          "Target": {
+			            "Entity": "dados_PS.vagas_PS_simp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.vagas_PS_simp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_vagas_PS_simp"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_título_PS": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.título_PS": {
+			          "Target": {
+			            "Entity": "dados_PS.título_PS"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.título_PS"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_título_PS"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_confirmados_PS_comp": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.confirmados_PS_comp": {
+			          "Target": {
+			            "Entity": "dados_PS.confirmados_PS_comp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.confirmados_PS_comp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_confirmados_PS_comp"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_vagas_PS_comp": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "dados_PS.vagas_PS_comp": {
+			          "Target": {
+			            "Entity": "dados_PS.vagas_PS_comp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "dados_PS.vagas_PS_comp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_vagas_PS_comp"
+			        }
+			      ]
+			    },
+			    "unidade_has_co_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Unidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        },
+			        "unidade.co_unidade": {
+			          "Target": {
+			            "Entity": "unidade.co_unidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "unidade.co_unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_co_unidades"
+			        }
+			      ]
+			    },
+			    "unidade_has_no_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Unidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        },
+			        "unidade.no_unidade": {
+			          "Target": {
+			            "Entity": "unidade.no_unidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "unidade.no_unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_no_unidades"
+			        }
+			      ]
+			    },
+			    "unidade_has_país": {
+			      "Binding": {
+			        "ConceptualEntity": "Unidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        },
+			        "unidade.país": {
+			          "Target": {
+			            "Entity": "unidade.país"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "unidade.país"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_país"
+			        }
+			      ]
+			    },
+			    "unidade_has_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "Unidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        },
+			        "unidade.estado": {
+			          "Target": {
+			            "Entity": "unidade.estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "unidade.estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_estado"
+			        }
+			      ]
+			    },
+			    "unidade_has_unidade_sis": {
+			      "Binding": {
+			        "ConceptualEntity": "Unidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          }
+			        },
+			        "unidade.unidade_sis": {
+			          "Target": {
+			            "Entity": "unidade.unidade_sis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "unidade.unidade_sis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_unidade_sis"
+			        }
+			      ]
+			    },
+			    "tipo_visualizacao_has_parâmetro": {
+			      "Binding": {
+			        "ConceptualEntity": "TipoVisualizacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tipo_visualizacao": {
+			          "Target": {
+			            "Entity": "tipo_visualizacao"
+			          }
+			        },
+			        "tipo_visualizacao.parâmetro": {
+			          "Target": {
+			            "Entity": "tipo_visualizacao.parâmetro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tipo_visualizacao"
+			            },
+			            "Object": {
+			              "Role": "tipo_visualizacao.parâmetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tipo_visualizacaos_have_parâmetros"
+			        }
+			      ]
+			    },
+			    "data_atualização_has_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "Data atualização"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_atualização": {
+			          "Target": {
+			            "Entity": "data_atualização"
+			          }
+			        },
+			        "data_atualização.texto": {
+			          "Target": {
+			            "Entity": "data_atualização.texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_atualização"
+			            },
+			            "Object": {
+			              "Role": "data_atualização.texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_atualizaçãos_have_textos"
+			        }
+			      ]
+			    },
+			    "data_atualização_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Data atualização"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_atualização": {
+			          "Target": {
+			            "Entity": "data_atualização"
+			          }
+			        },
+			        "data_atualização.data": {
+			          "Target": {
+			            "Entity": "data_atualização.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_atualização"
+			            },
+			            "Object": {
+			              "Role": "data_atualização.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_atualizaçãos_have_data"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_campus": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.campus": {
+			          "Target": {
+			            "Entity": "ps_complementar.campus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.campus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_campuses"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_polo": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.polo": {
+			          "Target": {
+			            "Entity": "ps_complementar.polo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.polo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_polo"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_tipo_de_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.tipo_de_curso": {
+			          "Target": {
+			            "Entity": "ps_complementar.tipo_de_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.tipo_de_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_tipo_de_cursos"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_tipo_de_oferta": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.tipo_de_oferta": {
+			          "Target": {
+			            "Entity": "ps_complementar.tipo_de_oferta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.tipo_de_oferta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_tipo_de_ofertas"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_nome_do_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.nome_do_curso": {
+			          "Target": {
+			            "Entity": "ps_complementar.nome_do_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.nome_do_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_nome_do_cursos"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.turno": {
+			          "Target": {
+			            "Entity": "ps_complementar.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_turnos"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_modalidade": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.modalidade": {
+			          "Target": {
+			            "Entity": "ps_complementar.modalidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.modalidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_modalidades"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.ano": {
+			          "Target": {
+			            "Entity": "ps_complementar.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_anos"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_tipo_de_seleção": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.tipo_de_seleção": {
+			          "Target": {
+			            "Entity": "ps_complementar.tipo_de_seleção"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.tipo_de_seleção"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_tipo_de_seleçãos"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.vaga": {
+			          "Target": {
+			            "Entity": "ps_complementar.vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_vagas"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_inscrito": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.inscrito": {
+			          "Target": {
+			            "Entity": "ps_complementar.inscrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.inscrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_inscritos"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_vagas_confirmada": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.vagas_confirmada": {
+			          "Target": {
+			            "Entity": "ps_complementar.vagas_confirmada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.vagas_confirmada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_vagas_confirmadas"
+			        }
+			      ]
+			    },
+			    "ps_complementar_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "PS COMPLEMENTAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_complementar": {
+			          "Target": {
+			            "Entity": "ps_complementar"
+			          }
+			        },
+			        "ps_complementar.column_1": {
+			          "Target": {
+			            "Entity": "ps_complementar.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_complementar"
+			            },
+			            "Object": {
+			              "Role": "ps_complementar.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_complementars_have_column_1"
+			        }
+			      ]
+			    },
+			    "ps_regular_has_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "PS REGULAR"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_regular": {
+			          "Target": {
+			            "Entity": "ps_regular"
+			          }
+			        },
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          },
+			          "Nouns": [
+			            {
+			              "campus": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_regular"
+			            },
+			            "Object": {
+			              "Role": "unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_regulars_have_unidades"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "ps_regular"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_ps_regulars"
+			        }
+			      ]
+			    },
+			    "ps_simplificado_has_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "PS SIMPLIFICADO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ps_simplificado": {
+			          "Target": {
+			            "Entity": "ps_simplificado"
+			          }
+			        },
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          },
+			          "Nouns": [
+			            {
+			              "campus": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ps_simplificado"
+			            },
+			            "Object": {
+			              "Role": "unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ps_simplificados_have_unidades"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "ps_simplificado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_ps_simplificados"
+			        }
+			      ]
+			    },
+			    "dados_PS_has_unidade": {
+			      "Binding": {
+			        "ConceptualEntity": "DadosPS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_PS": {
+			          "Target": {
+			            "Entity": "dados_PS"
+			          }
+			        },
+			        "unidade": {
+			          "Target": {
+			            "Entity": "unidade"
+			          },
+			          "Nouns": [
+			            {
+			              "campus": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_PS"
+			            },
+			            "Object": {
+			              "Role": "unidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dados_PSs_have_unidades"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "unidade"
+			            },
+			            "Object": {
+			              "Role": "dados_PS"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unidades_have_dados_PSs"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

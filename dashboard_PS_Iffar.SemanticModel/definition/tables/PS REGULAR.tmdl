@@ -1,0 +1,118 @@
+table 'PS REGULAR'
+	lineageTag: 432cd27e-b733-49a4-98bd-2199906e347c
+
+	column Campus
+		dataType: string
+		lineageTag: ee4155c6-4a1f-4a0e-9b56-3a128db2a528
+		summarizeBy: none
+		sourceColumn: Campus
+
+		annotation SummarizationSetBy = Automatic
+
+	column Polo
+		dataType: string
+		lineageTag: 8ba361aa-23d0-4704-aece-b37e8a0f9bbe
+		summarizeBy: none
+		sourceColumn: Polo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Curso'
+		dataType: string
+		lineageTag: 1321aa6f-bb9a-4e1d-b4bc-602ecac62b6c
+		summarizeBy: none
+		sourceColumn: Tipo de Curso
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Oferta'
+		dataType: string
+		lineageTag: 4871856d-84a6-4c9b-bc22-ee8214d01155
+		summarizeBy: none
+		sourceColumn: Tipo de Oferta
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome do Curso'
+		dataType: string
+		lineageTag: 91ac4662-bc32-4c6d-a8c3-c79da3fb3695
+		summarizeBy: none
+		sourceColumn: Nome do Curso
+
+		annotation SummarizationSetBy = Automatic
+
+	column Turno
+		dataType: string
+		lineageTag: 4e944f63-8225-4101-a850-e7b2453b8adb
+		summarizeBy: none
+		sourceColumn: Turno
+
+		annotation SummarizationSetBy = Automatic
+
+	column Modalidade
+		dataType: string
+		lineageTag: 42358e1b-3fb4-4d56-a9f3-5c7a2e19416c
+		summarizeBy: none
+		sourceColumn: Modalidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 88427d72-a2d1-405b-b0f5-6c64b7e8c682
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Seleção'
+		dataType: string
+		lineageTag: 08141964-c9cb-4413-a07c-94ef4af9e945
+		summarizeBy: none
+		sourceColumn: Tipo de Seleção
+
+		annotation SummarizationSetBy = Automatic
+
+	column Vagas
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c4afe61-ad56-47bd-abad-6e2630bbf72d
+		summarizeBy: sum
+		sourceColumn: Vagas
+
+		annotation SummarizationSetBy = Automatic
+
+	column Inscritos
+		dataType: int64
+		formatString: 0
+		lineageTag: 73ae4902-c36a-47e4-9878-1a890bb24416
+		summarizeBy: sum
+		sourceColumn: Inscritos
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Vagas Confirmadas'
+		dataType: int64
+		formatString: 0
+		lineageTag: c5a5ac42-8452-49bc-9418-943d2dfd71d7
+		summarizeBy: sum
+		sourceColumn: Vagas Confirmadas
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'PS REGULAR' = m
+		mode: import
+		source =
+				let
+				    Fonte = GoogleSheets.Contents("https://docs.google.com/spreadsheets/d/1vAu60E1xoG7GPH5Ps5BUO1OjI3v0Iv2CM6-ifzWBW8I/edit?usp=sharing"),
+				    #"PS REGULAR_Table" = Fonte{[name="PS REGULAR",ItemKind="Table"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"PS REGULAR_Table", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Campus", type text}, {"Polo", type text}, {"Tipo de Curso", type text}, {"Tipo de Oferta", type text}, {"Nome do Curso", type text}, {"Turno", type text}, {"Modalidade", type text}, {"Ano", Int64.Type}, {"Tipo de Seleção", type text}, {"Vagas", Int64.Type}, {"Inscritos", Int64.Type}, {"Vagas Confirmadas", Int64.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

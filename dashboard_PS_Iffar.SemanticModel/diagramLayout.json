@@ -1,0 +1,111 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "DadosPS",
+          "nodeLineageTag": "a33424c8-0701-4701-9b8a-598991926e01",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 0
+          },
+          "nodeIndex": "PS REGULAR",
+          "nodeLineageTag": "432cd27e-b733-49a4-98bd-2199906e347c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 0
+          },
+          "nodeIndex": "PS SIMPLIFICADO",
+          "nodeLineageTag": "4aeaf382-17fd-4000-aa24-765254a51dff",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 209,
+            "y": 385
+          },
+          "nodeIndex": "Unidades",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1161,
+            "y": 228.5
+          },
+          "nodeIndex": "TipoVisualizacao",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1445,
+            "y": 240.5
+          },
+          "nodeIndex": "Data atualização",
+          "nodeLineageTag": "53ab5a99-dc84-418b-8fe0-8e6399408f97",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1729,
+            "y": 154.5
+          },
+          "nodeIndex": "PS COMPLEMENTAR",
+          "nodeLineageTag": "477f9c01-7c26-49f4-bef3-e37ce9f193d4",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

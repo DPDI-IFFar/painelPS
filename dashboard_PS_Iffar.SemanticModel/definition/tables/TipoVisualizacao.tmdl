@@ -1,0 +1,51 @@
+table TipoVisualizacao
+	lineageTag: 6d8f6afa-3cc4-46ed-b362-0ee284f7ebfa
+
+	column Parâmetro
+		lineageTag: f2b760e2-8d6a-4143-9930-226606bf8746
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parâmetro Pedido'
+
+		relatedColumnDetails
+			groupByColumn: 'Parâmetro Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro Campos'
+		isHidden
+		lineageTag: 6eb43d3f-b3ac-4891-8d95-83305a071d05
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parâmetro Pedido'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro Pedido'
+		isHidden
+		formatString: 0
+		lineageTag: 1dcf6bc3-f2f4-4634-981c-8b3bf4f95c62
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TipoVisualizacao = calculated
+		mode: import
+		source =
+				{
+				    ("Campus", NAMEOF('Unidades'[CIDADE]), 0),
+				    ("Modalidade", NAMEOF(DadosPS[Modalidade]), 1),
+				    ("Tipo de Curso", NAMEOF(DadosPS[Tipo de Curso]), 2),
+				    ("Oferta (Técnico)", NAMEOF(DadosPS[Tipo de Oferta]), 3),
+				    ("Nome do Curso", NAMEOF(DadosPS[Nome do Curso]), 4)
+				}
+
+	annotation PBI_Id = 85879a83ffab4d479ed2ed13889c0b86
+

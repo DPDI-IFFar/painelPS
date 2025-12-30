@@ -1,0 +1,228 @@
+table DadosPS
+	lineageTag: a33424c8-0701-4701-9b8a-598991926e01
+
+	measure 'Total de Inscritos' = SUM(DadosPS[Inscritos])
+		formatString: 0
+		lineageTag: 62fd5635-c5e7-45e9-9ce3-cba08a440cc7
+
+	measure 'Total de vagas' =
+			CALCULATE(
+			    SUM(DadosPS[Vagas]),
+			    DadosPS[Tipo de Seleção] = "Regular"
+			)
+		formatString: 0
+		lineageTag: bd21a385-f892-4124-8869-9ebf0584b18c
+
+	measure 'Total de vagas confirmadas' = SUM(DadosPS[Vagas Confirmadas])
+		formatString: 0
+		lineageTag: dbc4d1e1-bdbe-49bf-b7de-e43f455ea732
+
+	measure 'Relação inscrito/vaga' = DadosPS[Total de Inscritos]/DadosPS[Total de vagas]
+		lineageTag: 4c9827fb-5a98-4dd9-864b-1fbe376ea303
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '% Vagas preenchidas' = [Total de vagas confirmadas]/[Vagas_PSRegular]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8942cf3f-ce66-4d01-b7e6-10bf0ca868f5
+
+	measure Confirmados_PSRegular =
+			
+			CALCULATE(
+			    SUM(DadosPS[Vagas Confirmadas]),
+			    DadosPS[Tipo de Seleção] = "Regular"
+			)+0
+		formatString: 0
+		lineageTag: ba965493-bfd0-428f-86da-d83d884db6f7
+
+	measure Confirmados_PSSimp = ```
+			
+			CALCULATE(
+			    SUM(DadosPS[Vagas Confirmadas]),
+			    DadosPS[Tipo de Seleção] IN {"Simplificado"}
+			)+0
+			
+			```
+		formatString: 0
+		lineageTag: 43408d0c-3cad-440a-8a95-f77517202998
+
+	measure Vagas_PSRegular =
+			
+			CALCULATE(
+			    SUM(DadosPS[Vagas]),
+			    DadosPS[Tipo de Seleção] = "Regular"
+			)+0
+		formatString: 0
+		lineageTag: a3cf11bc-626e-4b57-94d2-aacb9dbe5e37
+
+	measure Vagas_PSSimp = ```
+			
+			CALCULATE(
+			    SUM(DadosPS[Vagas]),
+			    DadosPS[Tipo de Seleção] IN {"Simplificado"}
+			)+0
+			
+			```
+		formatString: 0
+		lineageTag: 0f4d0387-3e8c-47fb-bb06-993ed333040c
+
+	measure 'Título PS' = ```
+			
+			VAR titulo = CONCATENATEX(VALUES(DadosPS[Processo Seletivo]), DadosPS[Processo Seletivo], ", ")
+			RETURN IF(titulo="PS Graduação, PS Subsequente, PS Integrado", "Processos Seletivos (Todos)", titulo)
+			
+			```
+		lineageTag: 4a7094a0-4dca-4e99-bd0a-2d346ab5ea45
+
+	measure Confirmados_PSComp =
+			
+			CALCULATE(
+			    SUM(DadosPS[Vagas Confirmadas]),
+			    DadosPS[Tipo de Seleção] IN {"Complementar"}
+			)+0
+		formatString: 0
+		lineageTag: 162477d8-ded5-47f8-bb95-eb9556a0feff
+
+	measure Vagas_PSComp = ```
+			
+			CALCULATE(
+			    SUM(DadosPS[Vagas]),
+			    DadosPS[Tipo de Seleção] IN {"Complementar"}
+			)+0
+			
+			```
+		formatString: 0
+		lineageTag: 296dba1f-bfe2-474c-b637-31c12692a19f
+
+	column Campus
+		dataType: string
+		lineageTag: c3ca9ec7-578e-4b5c-9d9f-25013fc7dc81
+		summarizeBy: none
+		sourceColumn: Campus
+
+		annotation SummarizationSetBy = Automatic
+
+	column Polo
+		dataType: string
+		lineageTag: 0d9f4dba-4797-46c3-9165-5e7a076c60c3
+		summarizeBy: none
+		sourceColumn: Polo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Curso'
+		dataType: string
+		lineageTag: 16acf2c4-8a67-4041-949a-3ce9e224044e
+		summarizeBy: none
+		sourceColumn: Tipo de Curso
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Oferta'
+		dataType: string
+		lineageTag: 39e88f7c-bd7b-45b7-b9b0-c0a4bec6aca6
+		summarizeBy: none
+		sourceColumn: Tipo de Oferta
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome do Curso'
+		dataType: string
+		lineageTag: b7561b57-fec3-4525-967e-ede2e9360418
+		summarizeBy: none
+		sourceColumn: Nome do Curso
+
+		annotation SummarizationSetBy = Automatic
+
+	column Turno
+		dataType: string
+		lineageTag: 76f8d8b1-548e-4d89-b94a-91413571f63f
+		summarizeBy: none
+		sourceColumn: Turno
+
+		annotation SummarizationSetBy = Automatic
+
+	column Modalidade
+		dataType: string
+		lineageTag: b68add0c-f44a-4eb4-9dd9-9dc13a3c5913
+		summarizeBy: none
+		sourceColumn: Modalidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: cbb640af-ee59-4728-b87e-783278ecd558
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de Seleção'
+		dataType: string
+		lineageTag: 1b5eeff0-8d6a-4606-89b6-ed2f99bc08e1
+		summarizeBy: none
+		sourceColumn: Tipo de Seleção
+
+		annotation SummarizationSetBy = Automatic
+
+	column Vagas
+		dataType: int64
+		formatString: 0
+		lineageTag: 1e0cb284-fb59-444c-a701-b4f25de22bb0
+		summarizeBy: sum
+		sourceColumn: Vagas
+
+		annotation SummarizationSetBy = Automatic
+
+	column Inscritos
+		dataType: int64
+		formatString: 0
+		lineageTag: 738a367e-c41d-4fac-8713-c8f9aeb8d2c3
+		summarizeBy: sum
+		sourceColumn: Inscritos
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Vagas Confirmadas'
+		dataType: int64
+		formatString: 0
+		lineageTag: 73ddb432-0d59-42fd-a0a1-9cfbe3540672
+		summarizeBy: sum
+		sourceColumn: Vagas Confirmadas
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Processo Seletivo'
+		dataType: string
+		lineageTag: e1defa5d-437a-4b80-a4e1-2f452fc5476b
+		summarizeBy: none
+		sourceColumn: Processo Seletivo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column1
+		dataType: string
+		lineageTag: 0833bc49-1fe9-4e01-8c1d-5ae104c82efa
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DadosPS = m
+		mode: import
+		source =
+				let
+				    Fonte = #"PS REGULAR",
+				    #"Consulta Acrescentada" = Table.Combine({Fonte, #"PS SIMPLIFICADO", #"PS COMPLEMENTAR" }),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Consulta Acrescentada", each ([Campus] <> "")),
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Linhas Filtradas", "Processo Seletivo", each if [Tipo de Oferta] = "Integrado" then "PS Integrado" else if [Tipo de Oferta] = "Subsequente" then "PS Subsequente" else if [Tipo de Curso] = "Licenciatura" then "PS Graduação" else if [Tipo de Curso] = "Bacharelado" then "PS Graduação" else if [Tipo de Curso] = "Tecnologia" then "PS Graduação" else null),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Coluna Condicional Adicionada",{{"Processo Seletivo", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

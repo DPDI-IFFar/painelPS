@@ -1,0 +1,25 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["PS REGULAR","PS SIMPLIFICADO","DadosPS","Unidades","Data atualização","PS COMPLEMENTAR"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["CalcGroup","DevMode"]
+
+ref table 'PS REGULAR'
+ref table 'PS SIMPLIFICADO'
+ref table DadosPS
+ref table Unidades
+ref table TipoVisualizacao
+ref table 'Data atualização'
+ref table 'PS COMPLEMENTAR'
+
+ref cultureInfo pt-BR
+
