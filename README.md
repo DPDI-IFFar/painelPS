@@ -74,7 +74,7 @@ Desenvolvimento Institucional > Planejamento e Desenvolvimento Institucional > P
 
 Este projeto é um software proprietário de **uso não comercial**.
 
-✔ Uso institucional, acadêmico e educacional permitido  
+✔ **Uso institucional, acadêmico e educacional permitido** 
 ❌ Uso comercial, venda ou sublicenciamento não permitido
 
 Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
