@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.2.0/schema.json",
   "themeCollection": {
     "baseTheme": {
       "name": "CY24SU10",
@@ -59,8 +59,8 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "dash_Sistec_(4)056704618492859016.png",
-          "path": "dash_Sistec_(4)056704618492859016.png",
+          "name": "dashs_plano_de_fundo_(1)8044572459566823.png",
+          "path": "dashs_plano_de_fundo_(1)8044572459566823.png",
           "type": "Image"
         }
       ]

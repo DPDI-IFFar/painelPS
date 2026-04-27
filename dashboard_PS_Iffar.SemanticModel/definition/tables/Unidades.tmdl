@@ -54,7 +54,7 @@ table Unidades
 		mode: import
 		source =
 				let
-				    Fonte = Excel.Workbook(File.Contents("D:\Users\Servidor_IFFar\Downloads\OneDrive_2025-03-07\PS 2025 _ PI\unidade.xlsx"), null, true),
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\jalin\OneDrive - iffarroupilha.edu.br\Documentos\Dashboards PowerBI\PS 2025 _ PI\painelPS\data\unidade.xlsx"), null, true),
 				    Plan1_Sheet = Fonte{[Item="Plan1",Kind="Sheet"]}[Data],
 				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Plan1_Sheet, [PromoteAllScalars=true]),
 				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"CO_UNIDADE", Int64.Type}, {"NO_UNIDADE", type text}, {"PAÍS", type text}, {"ESTADO", type text}, {"CIDADE", type text}, {"UNIDADE_SIS", type text}})

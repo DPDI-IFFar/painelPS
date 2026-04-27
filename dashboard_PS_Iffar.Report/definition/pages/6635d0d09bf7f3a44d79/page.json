@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "6635d0d09bf7f3a44d79",
   "displayName": "Página 1",
   "displayOption": "FitToPage",
@@ -14,7 +14,7 @@
               "name": {
                 "expr": {
                   "Literal": {
-                    "Value": "'dash_Sistec (4).png'"
+                    "Value": "'dashs plano de fundo (1).png'"
                   }
                 }
               },
@@ -23,7 +23,7 @@
                   "ResourcePackageItem": {
                     "PackageName": "RegisteredResources",
                     "PackageType": 1,
-                    "ItemName": "dash_Sistec_(4)056704618492859016.png"
+                    "ItemName": "dashs_plano_de_fundo_(1)8044572459566823.png"
                   }
                 }
               },
